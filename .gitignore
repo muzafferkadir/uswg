@@ -1,0 +1,48 @@
+# Binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go specific
+*.test
+*.out
+/vendor/
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Log files
+*.log
+
+# Build output
+/bin/
+/dist/
+/build/
+
+# Temporary files
+/tmp/
+/temp/
+
+# Test coverage
+coverage.txt
+coverage.html
+
+# Debug files
+debug/
+
+# Dependencies
+/node_modules/
+
+# Project specific
+uswg
