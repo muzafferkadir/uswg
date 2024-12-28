@@ -13,6 +13,7 @@ OPTIONS = {
     'excludes': ['matplotlib', 'numpy'],
     'site_packages': True,
     'resources': [ffmpeg_path],
+    'iconfile': 'assets/icon.icns',
     'plist': {
         'CFBundleName': 'Video Silence Remover',
         'CFBundleShortVersionString': '1.0',
