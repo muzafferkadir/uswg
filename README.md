@@ -4,10 +4,12 @@ USWG is an automated video silence removal application with a graphical interfac
 ## Demo
 
 ### Before 
-![Demo Video](/docs/test.mp4)
+https://github.com/user-attachments/assets/d88a7acd-ac5c-4d7c-bd44-726c6b1435f0
 
 ### After
-![Demo Video](/docs/test_unsilenced.mp4)
+https://github.com/user-attachments/assets/3e3db21a-bb83-40e4-a29e-e8619413498f
+
+
 
 ## Features
 - Easy-to-use graphical interface
