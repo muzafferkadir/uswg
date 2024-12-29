@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/3e3db21a-bb83-40e4-a29e-e8619413498f
 ![uswg-mac-test](https://github.com/user-attachments/assets/ffd15f50-584e-4533-8908-4aad65db70ad)
 
 ## Demo on Windows
-
+![Animation](https://github.com/user-attachments/assets/65df78c5-bc75-4e0b-98c2-547c863bc83b)
 
 ## How to Use
 1. Launch the application
