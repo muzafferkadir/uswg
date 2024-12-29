@@ -8,5 +8,7 @@ docs/_build/
 build/
 dist/
 *.mp4
+!docs/test.mp4
+!docs/test_unsilenced.mp4
 .DS_Store
 *.exe
