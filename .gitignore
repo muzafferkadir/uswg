@@ -1,5 +1,6 @@
 # Binary files
 *.exe
+!binaries/ffmpeg/windows/ffmpeg.exe
 *.exe~
 *.dll
 *.so
