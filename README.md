@@ -1,6 +1,9 @@
 # USWG - Unsilence With GUI
 USWG is an automated video silence removal application with a graphical interface. It helps you remove or speed up silent parts in your video and audio files automatically.
 
+> This project is a standalone version of the repo named unsilenced by adding gui. [You can check unsilence repo from here](https://github.com/lagmoellertim/unsilence)
+
+
 ## Demo
 
 ### Before 
@@ -20,6 +23,12 @@ https://github.com/user-attachments/assets/3e3db21a-bb83-40e4-a29e-e8619413498f
 - Process status notifications
 - Open output folder functionality after processing
 - Built-in ffmpeg for processing
+
+## Install USWG Mac
+![uswg-mac-test](https://github.com/user-attachments/assets/ffd15f50-584e-4533-8908-4aad65db70ad)
+
+## Demo on Windows
+
 
 ## How to Use
 1. Launch the application
