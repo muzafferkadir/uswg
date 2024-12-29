@@ -1,2 +1,1 @@
-unsilence
-py2app
+rich~=10.10.0

@@ -1,33 +1,29 @@
-from setuptools import setup, find_packages
-import os
-import subprocess
+import setuptools
 
-ffmpeg_path = '/opt/homebrew/bin/ffmpeg'
-DATA_FILES = [('', [ffmpeg_path])]
+with open("README.md", "r") as f:
+    long_description = f.read()
 
-APP = ['src/main.py']
-OPTIONS = {
-    'argv_emulation': False,
-    'packages': find_packages() + ['unsilence'],
-    'includes': ['tkinter', 'ffmpeg'],
-    'excludes': ['matplotlib', 'numpy'],
-    'site_packages': True,
-    'resources': [ffmpeg_path],
-    'iconfile': 'assets/icon.icns',
-    'plist': {
-        'CFBundleName': 'Video Silence Remover',
-        'CFBundleShortVersionString': '1.0',
-        'LSMinimumSystemVersion': '10.10',
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
+setuptools.setup(
+    name='unsilence',
+    version='1.0.9',
+    install_requires=requirements,
+    license='MIT License',
+    author='Tim-Luca Lagmöller',
+    author_email='mail@lagmoellertim.de',
+    description='Remove Silence from Media Files',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url='https://github.com/lagmoellertim/unsilence',
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    entry_points={
+        "console_scripts": ["unsilence=unsilence.command_line.EntryPoint:main"]
     }
-}
-
-setup(
-    name='VideoSilenceRemover',
-    version='1.0',
-    packages=find_packages(),
-    data_files=DATA_FILES,
-    install_requires=['unsilence'],
-    app=APP,
-    options={'py2app': OPTIONS},
-    setup_requires=['py2app'],
 )
