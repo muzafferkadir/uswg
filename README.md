@@ -1,3 +1,5 @@
+# ⚠️ This project is no longer maintained. You can visit [Klyppr](https://github.com/muzafferkadir/klyppr-desktop) instead.
+
 # USWG - Unsilence With GUI
 USWG is an automated video silence removal application with a graphical interface. It helps you remove or speed up silent parts in your video and audio files automatically.
 
